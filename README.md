@@ -25,7 +25,7 @@ We use Mascot version 2.6.1 and data needs to be exported in *csv* format with t
 * peptide start (pep_start)
 * peptide end (pep_end)
 
-An example mascot export data file can be found in the data directory.
+An example mascot export data file can be found in the example directory.
 Note: some info has been masked by XXX.
 
 Work in progress...
