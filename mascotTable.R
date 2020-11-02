@@ -181,7 +181,7 @@ mascotFile <- R6Class("mascotFile",
                        public = list(
                          # overrides the textData initialize --> lines should NOT be permanent in memory
                          initialize = function(fileName){
-                           super$initialize(theData = fileName, fileMode = TRUE, inMemory = FALSE)
+                           super$initialize(theData = fileName, fileMode = TRUE)
                            invisible(self)
                          },
                          # to find the place where the table with mascot hit info starts eturns the
